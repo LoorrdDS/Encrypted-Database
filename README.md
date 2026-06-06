@@ -41,9 +41,26 @@ Without the correct encryption key and salt file, stored information cannot be d
 
 ## Usage
 
-### Login
+## Initial Setup
 
-Start the application and authenticate using your assigned credentials.
+Upon first launch, you will be prompted to create a **Master Key**. This key is used to encrypt and decrypt all database files.
+
+**Important:**
+If you lose your Master Key, your data cannot be recovered. There is no backdoor, recovery mechanism, or password reset functionality.
+
+### Default Administrator Account
+
+For the initial setup, log in using the default administrator credentials:
+
+**Username:** admin
+**Password:** admin123
+
+### User Management
+
+After logging in as Administrator, you can create additional user accounts and assign different roles and clearance levels according to your operational requirements.
+
+It is strongly recommended to change the default administrator password immediately after the first login.
+
 
 ### Creating Records
 
