@@ -1,7 +1,5 @@
 # CLASSIFIED DATABASE
 
-A secure console-based intelligence database system inspired by real-world intelligence agencies.
-
 ## Features
 
 * User authentication system
@@ -18,14 +16,14 @@ A secure console-based intelligence database system inspired by real-world intel
 
 ## User Roles
 
-| Role          | Clearance  |
-| ------------- | ---------- |
-| Viewer        | PUBLIC     |
-| Informant     | PUBLIC     |
-| Agent         | INTERN     |
-| Officer       | GEHEIM     |
-| Director      | TOP_SECRET |
-| Administrator | TOP_SECRET |
+|Role|Clearance|
+|-|-|
+|Viewer|PUBLIC|
+|Informant|PUBLIC|
+|Agent|INTERN|
+|Officer|GEHEIM|
+|Director|TOP\_SECRET|
+|Administrator|TOP\_SECRET|
 
 ## Security
 
@@ -60,6 +58,7 @@ For the initial setup, log in using the default administrator credentials:
 After logging in as Administrator, you can create additional user accounts and assign different roles and clearance levels according to your operational requirements.
 
 It is strongly recommended to change the default administrator password immediately after the first login.
+
 
 
 ### Creating Records
@@ -97,3 +96,4 @@ Use the integrated search engine to locate records based on:
 This software is intended for educational, hobby and entertainment purposes only.
 
 It is not affiliated with, endorsed by or connected to any government agency, intelligence service or military organization.
+
