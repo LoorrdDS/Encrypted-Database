@@ -1,4 +1,4 @@
-import json			#Imports
+import json
 import os
 import getpass
 import base64
